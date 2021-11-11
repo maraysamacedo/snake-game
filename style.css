@@ -1,0 +1,34 @@
+body {
+  width: 95vw;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+}
+
+h1 {
+  font-size: 40px;
+  color: #00ff7f;
+  text-align: center;
+  font-weight: bold;
+}
+
+.botao {
+  height: 50px;
+  width: 150px;
+  background-color: FireBrick;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.botao:hover {
+  background-color: white;
+  color: firebrick;
+  cursor: pointer;
+  border-radius: 10px;
+}
